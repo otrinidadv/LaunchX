@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    height: 1500px;
+}
+div {
+    height: 400px;
+}
+.fondoColor {
+    background-color: chocolate;
+}
+.fondoOpacidad {
+    background-color: cyan;
+    opacity: 0.7;
+}
+.fondoImagen {
+    background-image: url(https://gcdn.lanetaneta.com/wp-content/uploads/2021/09/Lost-in-Space-Temporada-3-fecha-de-lanzamiento-de-Netflix.jpg);
+}
+.fondoRepetidoX {
+    background-image: url(https://gcdn.lanetaneta.com/wp-content/uploads/2021/09/Lost-in-Space-Temporada-3-fecha-de-lanzamiento-de-Netflix.jpg);
+    background-repeat: repeat-x;
+}
+.fondoRepetidoY {
+    background-image: url(https://gcdn.lanetaneta.com/wp-content/uploads/2021/09/Lost-in-Space-Temporada-3-fecha-de-lanzamiento-de-Netflix.jpg);
+    background-repeat: repeat-y;
+}
+.fondoNoRepetido {
+    background-image: url(https://gcdn.lanetaneta.com/wp-content/uploads/2021/09/Lost-in-Space-Temporada-3-fecha-de-lanzamiento-de-Netflix.jpg);
+    background-repeat: no-repeat;
+}
+.fondoPosicion {
+    background-image: url(https://gcdn.lanetaneta.com/wp-content/uploads/2021/09/Lost-in-Space-Temporada-3-fecha-de-lanzamiento-de-Netflix.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.fondoCompleto {
+    background-image: url(https://gcdn.lanetaneta.com/wp-content/uploads/2021/09/Lost-in-Space-Temporada-3-fecha-de-lanzamiento-de-Netflix.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

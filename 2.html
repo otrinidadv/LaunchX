@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <title>
+            Elementos Copmpuestos
+        </title>
+    </head>
+    <body>
+        <h1>
+            Explicación de Elementos Compuestos
+        </h1>
+        <!-- Labels / Etiquetas -->
+        <h2>
+            Etiquetas
+        </h2>
+        <label for="Input1">
+            Ejemplo de Input de Texto
+        </label>
+        <br>
+        <input type="text" id="Input1" name="Input1">
+        <!-- Tipos de Inputs -->
+        <h2>
+            Tipos de Inputs
+        </h2>
+        <h3>
+            Inputs de Texto
+        </h3>
+
+        <label for="correo1">
+            Input de Correo
+        </label>
+        <br>
+        <input type="email" id="correo1" name="correo1">
+        <br>
+
+        <label for="numero1">
+            Input de Número
+        </label>
+        <br>
+        <input type="number" id="numero1" name="numero1">
+        <br>
+
+        <label for="psw1">
+            Input de Password
+        </label>
+        <br>
+        <input type="password" id="psw1" name="psw1">
+        <br>
+
+        <label for="tel1">
+            Input de Teléfono
+        </label>
+        <br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10">
+        <br>
+
+        <label for="url1">
+            Input de URL
+        </label>
+        <br>
+        <input type="url" id="url1" name="url1">
+        <br>
+
+        <h3>
+            Input de Selección Múltiple
+        </h3>
+        <input type="checkbox" id="topping1" name="topping1" value="Opcion1">
+        <label for="topping1">
+            Opción 1
+        </label>
+        <br>
+        <input type="checkbox" id="topping2" name="topping2" value="Opcion2">
+        <label for="topping2">
+            Opción 2
+        </label>
+        <br>
+        <input type="checkbox" id="topping3" name="topping3" value="Opcion3">
+        <label for="topping3">
+            Opción 3
+        </label>
+
+        <h3>
+            Input de Selección Única
+        </h3>
+        <input type="radio" id="opcionparticular1" name="OpcionGeneral" value="OpcionParticular1">
+        <label for="opcionparticular1">
+            Opción Particular 1
+        </label>
+        <br>
+        <input type="radio" id="opcionparticular2" name="OpcionGeneral" value="OpcionParticular2">
+        <label for="opcionparticular2">
+            Opción Particular 2
+        </label>
+        <br>
+        <input type="radio" id="opcionparticular3" name="OpcionGeneral" value="OpcionParticular3">
+        <label for="opcionparticular3">
+            Opción Particular 3
+        </label>
+
+        <h3>
+            Selección
+        </h3>
+        <label for="Opciones">
+            Seleccione una Opción:
+        </label>
+        <select name="Opciones" id="Opciones">
+            <option value="Opcion1">
+                Opción 1
+            </option>
+            <option value="Opcion2">
+                Opción 2
+            </option>
+            <option value="Opcion3">
+                Opción 3
+            </option>
+        </select>
+
+        <h3>
+            Select con Input
+        </h3>
+        <label for="OpcionGeneral">
+            Elige una Opción Particular
+        </label>
+        <input list="OpcionGeneral">
+        <datalist id="OpcionGeneral">
+            <option value="Opcion 1">
+            <option value="Opcion 2">
+            <option value="Opcion 3">
+            <option value="Particular 1">
+            <option value="Particular 2">
+            <option value="Particular 3">
+            <option value="Seleccion 1">
+            <option value="Seleccion 2">
+            <option value="Seleccion 3">
+        </datalist>
+
+        <h3>
+            Input de Fecha
+        </h3>
+        <input type="date" id="fecha1" name="fecha1">
+        <br>
+        <input type="datetime-local" id="fecha2" name="fecha2">
+        <br>
+        <input type="week" id="fecha3" name="fecha3">
+        <br>
+        <input type="time" id="fecha4" name="fecha4">
+        <br>
+        <input type="month" id="fecha5" name="fecha5">
+
+        <h3>
+            Input de Archivo
+        </h3>
+        <input type="file" id="archivo1" name="archivo1" multiple>
+        <!-- la funcion size permite definir el tamaño maximo del archivo -->
+
+        <h3>
+            Input de Rango
+        </h3>
+        <label for="vol1">
+            Volumen entre 0 y 100
+        </label>
+        <br>
+        <input type="range" id="vol1" name="vol1" min="0" max="100" value="78">
+
+        <h3>
+            Input de Color
+        </h3>
+        <input type="color" id="color1" name="color1">
+
+        <h3>
+            Input de Botón
+        </h3>
+        <input type="reset">
+        <br>
+        <input type="submit">
+        <br>
+        <input type="button" id="botn1" name="boton1" value="Botón 1" onclick="alert('Texto que aparece cuando se preciona el Botón 1')">
+        <!-- Tambien se puede usar la funcion <button> que es practicamente lo mismo -->
+
+        <h3>
+            Ejemplo de Formulario
+        </h3>
+        <form action="/action.js" id="form1" method="post">
+            <label for="nombre">
+                Nombre:
+            </label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <input type="submit" value="Nombre del Botón">
+            <input type="reset">
+            <br>
+            <label for="apellido">
+                Apellido:
+            </label>
+            <input type="text" id="Apellido" name="apellido" form="form1">
+        </form>
+    </body>
+</html>
